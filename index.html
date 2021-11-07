@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Eletrônica</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div class="urna">
+        <div class="tela">
+            <div class="d-1">
+                <div class="d-1-left">
+                    <div class="d-1-1">
+                        <span>SEU VOTO PARA</span>
+                    </div>
+                    <div class="d-1-2">
+                        <span>VEREADOR</span>
+                    </div>
+                    <div class="d-1-3">
+                        <div class="numero pisca"></div>
+                        <div class="numero"></div>
+                    </div>
+                    <div class="d-1-4">
+                        Nome:<br/>
+                        Partido:<br/>
+                        Vice-Prefeito:
+                    </div>
+                </div>
+                <div class="d-1-right">
+                    <div class="d-1-image">
+                        <img src="images/Kratos.png" alt=""/>
+                        Prefeito
+                    </div>
+                    <div class="d-1-image small">
+                        <img src="images/Cloud.png" alt=""/>
+                        Vice-Prefeito
+                    </div>
+                </div>
+            </div>
+            <div class="d-2">
+                Aperte a tecla:<br/>
+                    CONFIRMA para CONFIRMAR este voto<br/>
+                        CORRIGE para REINICIAR este voto
+            </div>
+        </div>
+        <div class="teclado">
+            <div class="teclado--linha">
+                <div class="teclado--botao" onclick="clicou('1')">1</div>
+                <div class="teclado--botao" onclick="clicou('2')">2</div>
+                <div class="teclado--botao" onclick="clicou('3')">3</div>
+            </div>
+            <div class="teclado--linha">
+                <div class="teclado--botao" onclick="clicou('4')">4</div>
+                <div class="teclado--botao" onclick="clicou('5')">5</div>
+                <div class="teclado--botao" onclick="clicou('6')">6</div>
+            </div>
+            <div class="teclado--linha">
+                <div class="teclado--botao" onclick="clicou('7')">7</div>
+                <div class="teclado--botao" onclick="clicou('8')">8</div>
+                <div class="teclado--botao" onclick="clicou('9')">9</div>
+            </div>
+            <div class="teclado--linha">
+                <div class="teclado--botao" onclick="clicou('0')">0</div>
+            </div>
+            <div class="teclado--linha">
+                <div class="teclado--botao botao--branco" onclick="branco()">BRANCO</div>
+                <div class="teclado--botao botao--corrige" onclick="corrige()">CORRIGE</div>
+                <div class="teclado--botao botao--confirma" onclick="confirma()">CONFIRMA</div>
+            </div>
+        </div>
+    </div>
+    <div class="lista-candidatos">
+        <div class="titulo">DEPUTADO FEDERAL</div>
+        <span>3811 - Naruto</span> 
+        <span>7722 - Sub Zero</span>
+        <div class="titulo">DEPUTADO ESTADUAL</div>
+        <span>99999 - Power Ranger Verde</span> 
+        <span>84444 - He Man</span>
+        <div class="titulo">SENADOR</div>
+        <span>111 - Chaves</span> 
+        <span>222 - Yoga</span>
+        <span>444 - Wolverine</span> 
+        <span>555 - Harry</span>
+        <div class="titulo">GOVERNADOR</div>
+        <span>77 - Optimus Prime</span> 
+        <span>88 - Ryu</span>
+        <div class="titulo">PRESIDENTE</div>
+        <span>25 - Kratos</span> 
+        <span>48 - Goku</span>
+    </div>
+    <script src="etapas.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
