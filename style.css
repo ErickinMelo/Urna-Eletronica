@@ -151,6 +151,7 @@ body {
 }
 .lista-candidatos {
     margin-top: 20px;
+    margin-bottom: 20px;
     border: 1px solid #000;
     padding: 10px;
     display: flex;
