@@ -93,7 +93,7 @@ function branco() {
         numeros.innerHTML = '';
         descricao.innerHTML = `<div class="aviso--grande pisca">VOTO EM BRANCO</div>`;
     } else {
-        alert("Para votar em BRANCO o campo de voto deve estar vazio. Aperte CORRIGE para apagra o campo de voto.");
+        alert("Para votar em BRANCO o campo de voto deve estar vazio. Aperte CORRIGE para apagar o campo de voto.");
     }
 }
 function corrige() {
